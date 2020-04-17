@@ -1,0 +1,92 @@
+body {
+    font-family:'Cabin Sketch', Arial, Helvetica, sans-serif;
+    background-color: rgb(161, 112, 207);
+    font-size: 20px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Cabin Sketch';
+    font-size: 80px;
+    font-weight: 500;
+    color: white;
+}
+
+/***Tool-kit***/
+.tool-kit-container {
+    margin-top: 60px;
+}
+
+.tool-kit {
+    background-color: rgb(59, 46, 66);
+    width: 100%;
+    border: 5px solid rgb(73, 43, 73);
+    
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    
+    
+}
+
+h2 {
+    
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+/* buttons */
+
+
+button {
+    display: block;
+    border-radius: 5px;
+    background-color: rgb(73, 43, 73);
+    color:white;
+    width:120px;
+    height: 70px;
+    margin: 5px auto;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#choose-size-button{
+    width: 180px;
+    background-image: linear-gradient(rgb(102, 15, 98), rgb(222, 177, 248));
+    
+}
+
+
+
+
+
+/*** grid container ***/
+.container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    width: 700px;
+    height: 800px;
+    display: grid;
+    border: 5px solid rgb(73, 43, 73);
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.square-border {
+    border: 1px solid rgb(161, 155, 155);
+}
+
